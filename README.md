@@ -1,92 +1,34 @@
 # Programming Paradigms
 
-## Description
+Repository containing exercises developed during the Programming Paradigms course.
 
-This repository contains programming exercises developed during the **Programming Paradigms** course, exploring different programming languages and programming styles.
+This repository explores different programming languages and programming paradigms, including procedural programming, object-oriented programming, functional programming, and logic programming.
 
-The goal of this repository is to study the characteristics, syntax, and design approaches of multiple programming paradigms, including **procedural**, **object-oriented**, **functional**, and **logic programming**.
+## Languages
 
-Each folder contains exercises implemented in a specific programming language, allowing comparisons between different approaches to solving computational problems.
+- BASIC
+- Lua
+- Rust
+- Go
+- C++
+  - Procedural Programming
+  - Object-Oriented Programming
+- C#
+- Python
+- Ruby
+- JavaScript
+- Java
+- Haskell
+- Lisp
+- Prolog
 
-## Languages Covered
+## Structure
 
-| Language   | Paradigm Highlights                                       |
-| ---------- | --------------------------------------------------------- |
-| BASIC      | Procedural programming fundamentals                       |
-| Lua        | Scripting and multiparadigm programming                   |
-| Rust       | Systems programming and memory safety                     |
-| Go         | Simplicity, performance, and concurrency concepts         |
-| C++        | Procedural and object-oriented programming                |
-| C#         | Object-oriented programming                               |
-| Python     | Dynamic programming and object-oriented design            |
-| Ruby       | Dynamic object-oriented programming                       |
-| JavaScript | Object-oriented programming with modern language features |
-| Java       | Object-oriented programming and class-based design        |
-| Haskell    | Functional programming                                    |
-| Lisp       | Functional and symbolic programming                       |
-| Prolog     | Logic programming                                         |
+Each folder contains exercises implemented in the respective programming language.
 
-## Repository Structure
+The C++ exercises are organized by paradigm:
 
-```text
-programming-paradigms/
-│
-├── BASIC/
-├── Lua/
-├── Rust/
-├── Go/
-├── C++/
-├── CSharp/
-├── Python/
-├── Ruby/
-├── JavaScript/
-├── Java/
-├── Haskell/
-├── Lisp/
-├── Prolog/
-│
-└── README.md
-```
+- `Cpp/procedural` — exercises focused on functions, recursion and procedural programming.
+- `Cpp/oop` — exercises focused on classes, objects and object-oriented programming.
 
-## Concepts Explored
-
-Throughout the exercises, different programming concepts are explored, including:
-
-### Procedural Programming
-
-* Variables and data manipulation
-* Control structures
-* Functions and procedures
-* Algorithm implementation
-
-### Object-Oriented Programming
-
-* Classes and objects
-* Encapsulation
-* Inheritance
-* Polymorphism
-* Abstraction
-
-### Functional Programming
-
-* Pure functions
-* Higher-order functions
-* Immutability concepts
-* Declarative problem solving
-
-### Logic Programming
-
-* Facts and rules
-* Queries
-* Knowledge representation
-* Logical inference
-
-## Purpose
-
-This repository serves as a study collection and reference for understanding how different programming languages approach problem-solving and software design.
-
-By implementing similar exercises in multiple languages, it provides practical experience with the strengths and characteristics of each programming paradigm.
-
-## License
-
-This repository was developed for educational purposes.
+The Prolog exercises explore logical programming concepts such as facts, rules, queries and knowledge representation.
