@@ -1,9 +1,8 @@
-```md
 # Programming Paradigms
 
 Repository containing exercises developed during the **Programming Paradigms** course.
 
-The objective of this repository is to explore different programming languages and programming paradigms, including **procedural programming**, **object-oriented programming**, **functional programming**, and **logic programming**.
+This repository explores different programming languages and programming paradigms, including **procedural programming**, **object-oriented programming**, **functional programming**, and **logic programming**.
 
 ## Languages
 
@@ -25,10 +24,9 @@ The exercises were developed using the following languages:
 
 ## Repository Structure
 
-Each programming language has its own directory containing four exercises, except for languages that were studied in multiple contexts.
+Each language has its own directory containing exercises developed during the course.
 
-```
-
+```text
 Programming-Paradigms
 │
 ├── BASIC
@@ -46,36 +44,38 @@ Programming-Paradigms
 ├── Python
 ├── Ruby
 └── Rust
-
 ```
 
 ## Paradigm Organization
 
 ### C++
 
-The C++ exercises are divided according to the programming paradigm explored:
+C++ exercises are organized according to the programming paradigm explored:
 
 - `Cpp/procedural`  
-  Exercises focused on procedural programming concepts, such as functions, recursion, and structured programming.
+  Exercises focused on procedural programming concepts, including functions, recursion, and structured programming.
 
 - `Cpp/oop`  
-  Exercises focused on object-oriented programming concepts, such as classes, objects, encapsulation, and methods.
+  Exercises focused on object-oriented programming concepts, including classes, objects, encapsulation, and methods.
 
 ### Prolog
 
-The Prolog exercises contain additional activities because the language was explored in more depth:
+Prolog contains additional exercises because logic programming was explored in greater depth:
 
 - `Prolog/exercise-01.pl` to `Prolog/exercise-04.pl`
-  - Logic programming fundamentals
-  - Facts, rules, queries, and knowledge representation
+  - Facts
+  - Rules
+  - Queries
+  - Knowledge representation
 
 - `Prolog/exercise-05.pl` to `Prolog/exercise-08.pl`
-  - Additional logic programming exercises
-  - Representation of relationships, constraints, and inference rules
+  - Relationships and constraints
+  - Inference rules
+  - Knowledge bases
 
 ## Concepts Explored
 
-Throughout the exercises, different programming concepts were practiced:
+The exercises cover concepts such as:
 
 - Variables and data types
 - Control structures
@@ -87,10 +87,8 @@ Throughout the exercises, different programming concepts were practiced:
 - Higher-order functions
 - Immutable data structures
 - Logic programming
-- Facts and rules
-- Knowledge bases and queries
+- Facts, rules, and queries
 
 ## Purpose
 
-This repository serves as a portfolio of exercises and studies developed during the Programming Paradigms course, demonstrating the differences between programming languages and their approaches to problem solving.
-```
+This repository serves as a portfolio of exercises developed during the Programming Paradigms course, demonstrating different approaches to problem solving across multiple programming languages.
